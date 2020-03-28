@@ -58,4 +58,8 @@ app.get('/someroute', (req, res, next) => {
   res.json({message: 'this is some route'})
 })
 
+app.get('/someotherroute', (req, res, next)=>{
+  res.send('new route added')
+})
+
 module.exports = app;
