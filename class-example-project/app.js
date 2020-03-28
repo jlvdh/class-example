@@ -55,7 +55,7 @@ const index = require('./routes/index');
 app.use('/', index);
 
 app.get('/someroute', (req, res, next) => {
-  res.send('this is some route')
+  res.send('this is a different update')
 })
 
 module.exports = app;
